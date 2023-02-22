@@ -7,6 +7,6 @@ const BadNum = [45, -7, "Mark", 2, 5, 7, 8];
 
 // }
 
-mix.forEach(function (item, index, arr) {
+mix.forEach( (item, index, arr)=> {
   console.table({ item, index, arr });
 });
