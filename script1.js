@@ -19,3 +19,20 @@
 //   names[i] = names[i][0].toUpperCase() + names[i].slice(1).toLowerCase();
 // }
 // console.log(names);
+
+
+// names.forEach(function (item, i, arr) {
+//   arr[i] = item[0].toUpperCase(1) + item.slice(1).toLowerCase();
+// });
+
+// console.log(names);
+
+
+
+// const correctName = names.map(function(item){
+//   return item[0].toUpperCase() + item.slice(1).toLowerCase()
+// })
+
+// console.log(names)
+
+// console.log(correctName);
