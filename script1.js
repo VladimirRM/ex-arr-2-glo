@@ -3,6 +3,9 @@
 // const mix = [true, 0, NaN, -1, "Vladimir"];
 // const BadNum = [45, -7, "Mark", 2, 5, 7, 8];
 
+
+/////////LOOP  For ForEach //////////
+
 // for (let i = 0; 0 < mix.length; i++) {
 
 // }
@@ -88,5 +91,18 @@
 // let result = badNum.every(function (item) {
 //   return typeof item === "number";
 // });
+
+// console.log(result);
+
+////////////////// CONCAT ARRAY ////////////////
+
+
+// let arr = [
+//   [1, 2],
+//   [3, 4],
+//   [5, 6],
+// ];
+
+// const result = arr.reduce((acc, item) => acc.concat(item));
 
 // console.log(result);

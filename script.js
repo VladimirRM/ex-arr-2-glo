@@ -3,6 +3,6 @@ const names = ["vladimir", "Mark", "kate", "Margo", "Peter"];
 const mix = [false, 0, NaN, 1, "Vladimir", "Khoma", 12];
 const badNum = [45, -7, "Mark", 2, 5, 7, 8];
 
-let sum = number.reduce((acc, next) => acc + next);
-
-console.log(sum);
+number.forEach((x, y, a) => {
+  console.log(number);
+});
