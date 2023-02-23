@@ -35,12 +35,12 @@
 
 // console.log(correctName);
 
-/////////////select string ////////////////////
+/////////////select string  or type////////////////////
 
 // let forWords = [];
 
 // for (let i = 0; i < mix.length; i++) {
-//   if (typeof mix[i] === "string"&& isNaN(mix[i])) {
+//   if (typeof mix[i] === "string")) {
 //     forWords.push(mix[i]);
 //   }
 // }
@@ -48,7 +48,7 @@
 // console.log(forWords);
 
 // let filterWords = mix.filter((item) => {
-//   return typeof item === "string" && isNaN(item);
+//   return typeof item === "string" (item);
 // });
 
 // console.log(filterWords) ;
