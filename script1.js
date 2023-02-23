@@ -64,3 +64,29 @@
 // }
 
 // console.log(result);
+
+// let result = mix.some((item) => {
+//   return typeof item === "number";
+// });
+
+// console.log(result);
+
+///////// check type boolean //////
+
+// let result = number.every(function(item){
+//   return typeof item === 'number'
+// })
+
+// console.log(result);
+
+
+// let badResult = badNum.some(function (item) {
+//   return typeof item === "number";
+// });
+
+// console.log(badResult);
+// let result = badNum.every(function (item) {
+//   return typeof item === "number";
+// });
+
+// console.log(result);
