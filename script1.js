@@ -54,7 +54,7 @@
 // console.log(filterWords) ;
 
 
-///////////////////  filter positiveNumbers /////////////
+///////////////////  filter  type Numbers /////////////
 
 
 // let result = false;
