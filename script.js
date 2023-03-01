@@ -6,8 +6,8 @@ const badNum = [45, -7, "Mark", 2, 5, 7, 8];
 // lowerCase for foreach map names /////////
 /////////////select type "string" from mix, for,filter //
 
-let result = mix.filter((item) => {
-  return typeof item === "string";
-});
+for (let i = 0; i < names.length; i++) {
+  names[i] = names[i][0].toUpperCase() + names[i].slice(1).toLowerCase();
+}
 
-console.log(result);
+console.log(names);
