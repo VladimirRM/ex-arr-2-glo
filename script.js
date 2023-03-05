@@ -6,7 +6,7 @@ const badNum = [45, -7, "Mark", 2, 5, 7, 8];
 // lowerCase for foreach map names /////////
 /////////////select type "string" from mix, for,filter //
 
-let result = mix.some((item) => {
+let result = number.every((item) => {
   return typeof item === "number";
 });
 
