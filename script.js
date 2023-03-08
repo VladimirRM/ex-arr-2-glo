@@ -6,10 +6,10 @@ const badNum = [45, -7, "Mark", 2, 5, 7, 8];
 // lowerCase for foreach map names /////////
 /////////////select type "string" from mix, for,filter
 
-let result = false;
+let result = mix.filter((item)=>{
+    return typeof item ==='string'
+});
 
-for (let i = 0; i < mix.length; i++) {
-  if (typeof mix[i] === "string") result = true;
-}
+
 
 console.log(result);
