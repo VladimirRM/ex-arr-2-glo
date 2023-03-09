@@ -4,12 +4,12 @@ const mix = [false, 0, NaN, 1, "Vladimir", "Khoma", 12];
 const badNum = [45, -7, "Mark", 2, 5, 7, 8];
 
 // lowerCase for foreach map names /////////
-/////////////select type "string" from mix, for,filter
+/////////////select type "string" from mix, for,filter////////
 
-let result = mix.filter((item)=>{
-    return typeof item ==='string'
-});
+let num = 0;
 
-
-
+for (let i = 0; i < number.length; i++) {
+  num += number[i];
+  result = num / number.length;
+}
 console.log(result);
