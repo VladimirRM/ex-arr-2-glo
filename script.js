@@ -9,9 +9,8 @@ const badNum = [45, -7, "Mark", 2, 5, 7, 8];
 
 let result = [];
 
-for (let i = 0; i < mix.length; i++) {
-  if (typeof mix[i] === "string") {
-    result.push(mix[i]);
-  }
-}
+result = mix.some((item) => {
+  return typeof item === "string";
+});
+
 console.log(result);
