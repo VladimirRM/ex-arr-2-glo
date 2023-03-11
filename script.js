@@ -9,8 +9,8 @@ const badNum = [45, -7, "Mark", 2, 5, 7, 8];
 
 let result = [];
 
-result = mix.some((item) => {
-  return typeof item === "string";
+result = number.every((item) => {
+  return typeof item === "number";
 });
 
 console.log(result);
