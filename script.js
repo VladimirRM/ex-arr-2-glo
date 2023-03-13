@@ -7,8 +7,8 @@ const badNum = [45, -7, "Mark", 2, 5, 7, 8];
 //////////find type string in mix with for //////////
 /////////////select type "string" from mix, for,filter////////
 
-let res = mix.filter((item) => {
-  return typeof item === "string";
+let res = number.every((item) => {
+  return typeof item === "number";
 });
 
 console.log(res);
