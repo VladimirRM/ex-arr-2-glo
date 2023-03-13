@@ -7,12 +7,10 @@ const badNum = [45, -7, "Mark", 2, 5, 7, 8];
 //////////find type string in mix with for //////////
 /////////////select type "string" from mix, for,filter////////
 
-let res = [];
-for (let i = 0; i < mix.length; i++) {
-  if (typeof mix[i] === "string") {
-    res.push(mix[i]);
-  }
-}
+let res = mix.filter((item) => {
+  return typeof item === "string";
+});
+
 console.log(res);
 
 // for (let i = 0; i < names.length; i++) {
