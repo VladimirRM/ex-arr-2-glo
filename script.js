@@ -7,12 +7,11 @@ const badNum = [45, -7, "Mark", 2, 5, 7, 8];
 //////////find type string in mix with for //////////
 /////////////select type "string" from mix, for,filter////////
 
+for (let i = 0; i < names.length; i++) {
+  names[i] = names[i][0].toUpperCase() + names[i].slice(1).toLowerCase();
+}
 
- let correct = names.map((item,i,arr)=>{
-  return arr[i] = item[0].toUpperCase() + item.slice(1).toLowerCase()
-})
-
-console.log(correct);
+console.log(names);
 
 // for (let i = 0; i < names.length; i++) {
 
