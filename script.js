@@ -8,9 +8,10 @@ const badNum = [45, -7, "Mark", 2, 5, 7, 8];
 /////////////select type "string" from mix, for,filter////////
 
 // let res = [];
-names.forEach((x, i, z) => {
-  return (z[i] = x[0].toUpperCase() + x.slice(1).toLowerCase());
-});
+
+for (let i = 0; i < names.length; i++) {
+  names[i] = names[i][0].toUpperCase() + names[i].slice(1).toLowerCase();
+}
 
 console.log(names);
 
