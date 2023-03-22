@@ -106,3 +106,14 @@
 // const result = arr.reduce((acc, item) => acc.concat(item));
 
 // console.log(result);
+
+///////////////////recursion//////////////////
+
+// function printArr(arr, index = 0) {
+//     console.log(arr[index]);
+//     index = index + 1;
+//     if (index < arr.length) {
+//       printArr(arr, index);
+//     }
+//   }
+//   printArr(arr);
