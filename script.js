@@ -9,17 +9,10 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 /////////////select type "string" from mix, for,filter////////
 /////////////recursion///////////////
 
+let correct = names.map((x, y, z) => {
+  return (z[y] = x[0].toUpperCase() + x.slice(1).toLowerCase());
+});
 
-
-names.forEach((x,y,z)=>{
-    return z[y] = x[0].toUpperCase() + x.slice(1).toLowerCase()
-})
-
-console.log(names);
-
-
-
-
-
+console.log(correct);
 
 // for (let i = 0; i < names.length; i++) {}
