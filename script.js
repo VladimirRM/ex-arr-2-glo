@@ -9,14 +9,13 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 /////////////select type "string" from mix, for,filter////////
 /////////////recursion///////////////
 
-let res = [];
-
-for (let i = 0; i < mix.length; i++) {
-  if (!!mix[i]) {
-    res.push(mix[i]);
+function printArr(arr, index = 0) {
+  console.log(arr[index]);
+  index = index + 1;
+  if (index < arr.length) {
+    printArr(arr, index);
   }
 }
-
-console.log(res);
+printArr(arr);
 
 // for (let i = 0; i < names.length; i++) {}
