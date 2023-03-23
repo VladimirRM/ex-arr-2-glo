@@ -7,14 +7,17 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 // lowerCase for foreach map names /////////
 //////////find type string in mix with for //////////
 /////////////select type "string" from mix, for,filter////////
+/////////////recursion///////////////
 
-function printArr(arr, index = 0) {
-  console.log(arr[index]);
-  index = index + 1;
-  if (index < arr.length) {
-    printArr(arr, index);
-  }
+for (let i = 0; i < names.length; i++) {
+  names[i] = names[i][0].toUpperCase() + names[0].slice(1).toLowerCase();
 }
-printArr(arr);
+
+console.log(names);
+
+
+
+
+
 
 // for (let i = 0; i < names.length; i++) {}
