@@ -12,7 +12,7 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 let res = [];
 
 for (let i = 0; i < mix.length; i++) {
-  if (typeof mix[i] === "string") {
+  if (!!mix[i]) {
     res.push(mix[i]);
   }
 }
