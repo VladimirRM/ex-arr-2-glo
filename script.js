@@ -17,7 +17,6 @@ function printArr(arr, index = 0) {
   }
 }
 
-
 printArr(arr);
 
 // for (let i = 0; i < names.length; i++) {}
