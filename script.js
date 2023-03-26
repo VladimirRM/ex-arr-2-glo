@@ -9,14 +9,10 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 /////////////select type "string" from mix, for,filter////////
 /////////////recursion///////////////
 
-let res = [];
-
-for (let i = 0; i < mix.length; i++) {
-  if (!!mix[i]) {
-    res.push(mix[i]);
-  }
+for (let i = 0; i < names.length; i++) {
+  names[i] = names[i][0].toUpperCase() + names[i].slice(1).toLowerCase();
 }
 
-console.log(res);
+console.log(names);
 
 // for (let i = 0; i < names.length; i++) {}
