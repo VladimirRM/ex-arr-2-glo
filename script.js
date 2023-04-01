@@ -8,8 +8,8 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 //////////find type string in mix with for //////////
 /////////////select type "string" from mix, for,filter////////
 /////////////recursion///////////////
-names.forEach((x, y, z) => {
-  return (z[y] = x[0].toUpperCase() + x.slice(1).toLowerCase());
+let res = names.map((item, i, arr) => {
+  return (arr[i] = item[0].toLocaleUpperCase() + item.slice(1).toLowerCase());
 });
 console.log(names);
 
