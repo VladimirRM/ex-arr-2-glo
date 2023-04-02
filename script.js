@@ -9,10 +9,9 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 /////////////select type "string" from mix, for,filter////////
 /////////////recursion///////////////
 let res = [];
-
-for (let i = 0; i < mix.length; i++) {
-  if (typeof mix[i] === "string") res.push(mix[i]);
-}
+res = number.some((item) => {
+  return typeof item === "number";
+});
 
 console.log(res);
 
