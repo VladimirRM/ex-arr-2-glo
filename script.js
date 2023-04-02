@@ -8,8 +8,7 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 //////////find type string in mix with for //////////
 /////////////select type "string" from mix, for,filter////////
 /////////////recursion///////////////
-let res = [];
-res = number.some((item) => {
+let res = number.every((item) => {
   return typeof item === "number";
 });
 
