@@ -10,7 +10,9 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 /////////////recursion///////////////
 let res = [];
 for (let i = 0; i < names.length; i++) {
-  if (typeof names[i] === "string") res.push(names[i]);
+  if (!!names[i]) {
+    res.push(names[i]);
+  }
 }
 
 console.log(res);
