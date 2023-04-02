@@ -8,13 +8,11 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 //////////find type string in mix with for //////////
 /////////////select type "string" from mix, for,filter////////
 /////////////recursion///////////////
-let res = [];
+/////////////check type use every & some /////////
 for (let i = 0; i < names.length; i++) {
-  if (!!names[i]) {
-    res.push(names[i]);
-  }
+  names[i] = names[i][0].toUpperCase() + names[0].slice(1).toLowerCase();
 }
 
-console.log(res);
+console.log(names);
 
 // for (let i = 0; i < names.length; i++) {}
