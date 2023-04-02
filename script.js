@@ -9,10 +9,15 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 /////////////select type "string" from mix, for,filter////////
 /////////////recursion///////////////
 /////////////check type use every & some /////////
-let res = names.map((x, y, z) => {
-  return (z[y] = x[0].toUpperCase() + x.slice(1).toLowerCase());
-});
 
-console.log(res);
+function printArr(arr, index = 0) {
+  console.log(arr[index]);
+  index = index + 1;
+  if (index < arr.length) {
+    printArr(arr, index);
+  }
+}
+
+printArr(arr);
 
 // for (let i = 0; i < names.length; i++) {}
