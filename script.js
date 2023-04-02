@@ -9,9 +9,9 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 /////////////select type "string" from mix, for,filter////////
 /////////////recursion///////////////
 /////////////check type use every & some /////////
-for (let i = 0; i < names.length; i++) {
-  names[i] = names[i][0].toUpperCase() + names[0].slice(1).toLowerCase();
-}
+names.forEach((x, y, z) => {
+  return (z[y] = x[0].toUpperCase() + x.slice(1).toLowerCase());
+});
 
 console.log(names);
 
