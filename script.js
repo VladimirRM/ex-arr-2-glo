@@ -14,12 +14,8 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 //   return
 // })
 
-let res = mix.every((item) => {
-  return typeof item === "string";
-});
+let res = number.reduce((i, e) => Math.max(i, e));
 
 console.log(res);
 
- for (let i = 0; i < names.length; i++) {
-         
-}
+for (let i = 0; i < names.length; i++) {}
