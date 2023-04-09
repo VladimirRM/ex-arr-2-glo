@@ -14,7 +14,7 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 //   return
 // })
 
-let res = number.some((item) => {
+let res = number.every((item) => {
   return typeof item === "number";
 });
 
