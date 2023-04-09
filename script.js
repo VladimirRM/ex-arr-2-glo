@@ -14,8 +14,8 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 //   return
 // })
 
-let res = names.map((x, y, z) => {
-  return (z[y] = x[0].toUpperCase() + x.slice(1).toLowerCase());
+let res = number.some((item) => {
+  return typeof item === "number";
 });
 
 console.log(res);
