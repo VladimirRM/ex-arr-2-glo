@@ -14,9 +14,10 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 //   return
 // })
 
-let res = names.map((item, i, arr) => {
-  return (arr[i] = item[0].toUpperCase() + item.slice(1).toLowerCase());
-});
-console.log(res);
+for (let i = 0; i < names.length; i++) {
+  names[i] = names[i][0].toUpperCase() + names[i].slice(1).toLowerCase();
+}
+
+console.log(names);
 
 // for (let i = 0; i < names.length; i++) {}
