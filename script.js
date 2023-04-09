@@ -14,10 +14,10 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 //   return
 // })
 
-names.forEach((x, y, z) => {
+let res = names.map((x, y, z) => {
   return (z[y] = x[0].toUpperCase() + x.slice(1).toLowerCase());
 });
 
-console.log(names);
+console.log(res);
 
 // for (let i = 0; i < names.length; i++) {}
