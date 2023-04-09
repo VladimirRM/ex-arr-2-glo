@@ -14,10 +14,14 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 //   return
 // })
 
-let res = number.every((item) => {
-  return typeof item === "number";
-});
+function printArr(arr, index = 0) {
+  console.log(arr[index]);
+  index = index + 1;
+  if (index < arr.length) {
+    printArr(arr, index);
+  }
+}
 
-console.log(res);
+printArr(arr);
 
 // for (let i = 0; i < names.length; i++) {}
