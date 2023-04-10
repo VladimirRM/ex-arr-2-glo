@@ -15,8 +15,8 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 // })
 
 function printArr(arr, index = 0) {
-  console.log(arr[index]);
   index = index + 1;
+  console.log(arr[index]);
   if (index < arr.length) {
     printArr(arr, index);
   }
