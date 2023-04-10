@@ -14,14 +14,10 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 //   return
 // })
 
-function printArr(arr, index = 0) {
-  index = index + 1;
-  console.log(arr[index]);
-  if (index < arr.length) {
-    printArr(arr, index);
-  }
-}
+names.forEach((x, y, z) => {
+  return (z[y] = x[0].toUpperCase() + x.slice(1).toLowerCase());
+});
 
-printArr(arr);
+console.log(names);
 
 // for (let i = 0; i < names.length; i++) {}
