@@ -13,10 +13,9 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 // names.forEach((x,y,z)=>{
 //   return
 // })
-
-let res = names.map((x, y, z) => {
-  return (z[y] = x[0].toUpperCase() + x.slice(1).toLowerCase());
-});
+for (let i = 0; i < names.length; i++) {
+  names[i] = names[i][0].toUpperCase() + names[0].slice(1).toLowerCase();
+}
 
 console.log(names);
 
