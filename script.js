@@ -13,10 +13,11 @@ const arr = ["vladimir", "Mark", "kate", "Margo", "Peter", "Nikolas"];
 // names.forEach((x,y,z)=>{
 //   return
 // })
-for (let i = 0; i < names.length; i++) {
-  names[i] = names[i][0].toUpperCase() + names[0].slice(1).toLowerCase();
-}
 
-console.log(names);
+let res = number.some((item) => {
+  return typeof item === "string";
+});
+
+console.log(res);
 
 // for (let i = 0; i < names.length; i++) {}
